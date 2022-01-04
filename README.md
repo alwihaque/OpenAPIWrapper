@@ -4,18 +4,29 @@ This is a wrapper for the OpenSea API for Node.js.
 
 ## Current Supported Endpoints
 
-1. Retrieving a single asset
-2. Retrieving a single contract
-3. Retrieving a single collection
-4. Retrieving collection stats
+✔️ Retrieving a single asset
+✔️ Retrieving a single contract
+✔️ Retrieving a single collection
+✔️ Retrieving collection stats
+✔️ Retrieving assets
+✔️ Retrieving events
 
 ## Soon to be supported Endpoints
 
-1. Retrieving assets
-2. Retrieving events
-3. Retrieving bundles
-4. Retrieving collection stats
-5. Retrieving orders
+OPENSEA LISTINGS
+
+❌ Retrieving orders - Testnets
+
+OPENSEA TESTNETS API
+
+❌ Retrieving assets - Testnets
+❌ Retrieving events - Testnets
+❌ Retrieving collections - Testnets
+❌ Retrieving bundles - Testnet
+❌ Retrieving a single asset - Testnets
+❌ Retrieving a single contract - Testnets
+❌ Retrieving a single collection - Testnets
+❌ Retrieving collection stats - Testnets
 
 ## Usage
 
