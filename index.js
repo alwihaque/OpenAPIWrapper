@@ -15,7 +15,7 @@ export class OpenSea {
                 }
             });
         } catch (e) {
-            console.log(e.message);
+            return e;
 
         }
     }
@@ -25,7 +25,7 @@ export class OpenSea {
             return await axios.get(baseUrl);
         }
         catch (e) {
-            console.log(e.message);
+            return e;
         }
     }
     async singleCollection ({collection_slug}) {
@@ -34,10 +34,20 @@ export class OpenSea {
             return await axios.get(baseUrl);
         }
         catch (e) {
-            console.log(e.message);
+            return e;
         }
 
     }
+    async collectionStats ({collection_slug}) {
+        const baseUrl = `https://api.opensea.io/api/v1/collection/${collection_slug}/stats`;
+        try {
+            return await axios.get(baseUrl);
+        }
+        catch (e) {
+            return e;
+        }
+    }
+
 
 }
 
