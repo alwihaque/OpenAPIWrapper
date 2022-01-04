@@ -21,7 +21,7 @@ This is a wrapper for the OpenSea API for Node.js.
 
 Example Usage: 
 
-```ecmascript 6
+``` javascript
 import {OpenSea} from "opensea-api-wrapper";
 const openSea = new OpenSea();
 const sampleNFT = {
