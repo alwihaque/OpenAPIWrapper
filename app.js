@@ -30,7 +30,7 @@ const singleContract = async ({asset_contract_address}) => {
         console.log(e.message);
     }
 }
-persianMafiaLingard = {
+const persianMafiaLingard = {
     asset_contract_address: "0xF4ee95274741437636e748DdAc70818B4ED7d043",
     token_id: 1228
 }
