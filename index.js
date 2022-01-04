@@ -28,6 +28,16 @@ export class OpenSea {
             console.log(e.message);
         }
     }
+    async singleCollection ({collection_slug}) {
+        const baseUrl = `https://api.opensea.io/api/v1/collection/${collection_slug}`
+        try {
+            return await axios.get(baseUrl);
+        }
+        catch (e) {
+            console.log(e.message);
+        }
+
+    }
 
 }
 
